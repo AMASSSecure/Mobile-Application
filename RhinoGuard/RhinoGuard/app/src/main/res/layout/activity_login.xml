@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="inc.rhino.rhinoguard.LoginActivity"
+    android:background="@drawable/bg">
+
+    <Button
+        android:text="Register"
+        android:textColor="#fff"
+        android:onClick="startSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@drawable/roundedcorners"
+        android:fontFamily="sans-serif-condensed"
+        android:typeface="normal"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:text="Login"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SignIn"
+        android:id="@+id/button"
+        android:background="@drawable/roundedcorners"
+        android:fontFamily="sans-serif-condensed"
+        android:typeface="normal"
+        android:textSize="24sp"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#fff"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="E-mail Address"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:background="@drawable/roundedcorners"
+        android:padding="7dp"
+        android:drawableRight="@drawable/atsign"
+        android:fontFamily="sans-serif-condensed"
+        android:typeface="normal"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/cast_expanded_controller_ad_container_white_stripe_color" />
+
+    <TextView
+        android:text="Sign in or Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:fontFamily="sans-serif-condensed"
+        android:typeface="normal"
+        android:textSize="36sp"
+        android:textColor="#fff"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColorHint="#fff"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:background="@drawable/roundedcorners"
+        android:hint="Password"
+        android:drawableRight="@drawable/key"
+        android:padding="7dp"
+        android:fontFamily="sans-serif-condensed"
+        android:typeface="normal"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/cast_expanded_controller_ad_container_white_stripe_color" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/applogo"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/editText2" />
+
+</RelativeLayout>

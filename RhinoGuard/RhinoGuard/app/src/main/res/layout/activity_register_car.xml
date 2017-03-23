@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_car"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="inc.rhino.rhinoguard.RegisterCarActivity"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView3"
+        android:fontFamily="sans-serif-condensed"
+        android:typeface="normal"
+        android:textColor="@android:color/white"
+        android:text="Add Car Information"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="39dp"
+        android:id="@+id/regNo"
+        android:background="@drawable/roundedcorners"
+        android:backgroundTint="@color/cast_expanded_controller_ad_container_white_stripe_color"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:hint="Vehicle Reg"
+        android:textColor="@android:color/white" />
+
+    <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:ems="10"
+    android:layout_below="@+id/regNo"
+    android:layout_alignEnd="@+id/regNo"
+    android:layout_marginTop="19dp"
+    android:id="@+id/dispName"
+    android:hint="Car Nickname"
+    android:padding="5dp"
+    android:background="@drawable/roundedcorners"
+    android:backgroundTint="@color/cast_expanded_controller_ad_container_white_stripe_color"
+    android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/regNo"
+        android:layout_alignEnd="@+id/regNo"
+        android:layout_marginTop="69dp"
+        android:id="@+id/make"
+        android:hint="Car Make"
+        android:padding="5dp"
+        android:background="@drawable/roundedcorners"
+        android:backgroundTint="@color/cast_expanded_controller_ad_container_white_stripe_color"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/regNo"
+        android:layout_alignEnd="@+id/regNo"
+        android:layout_marginTop="119dp"
+        android:id="@+id/model"
+        android:hint="Car Model"
+        android:padding="5dp"
+        android:background="@drawable/roundedcorners"
+        android:backgroundTint="@color/cast_expanded_controller_ad_container_white_stripe_color"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/regNo"
+        android:layout_alignEnd="@+id/regNo"
+        android:layout_marginTop="169dp"
+        android:id="@+id/extra"
+        android:hint="Extra Information e.g. Colour,5DR,Hatch Back"
+        android:padding="5dp"
+        android:background="@drawable/roundedcorners"
+        android:backgroundTint="@color/cast_expanded_controller_ad_container_white_stripe_color"
+        android:textColor="@android:color/white"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:text="Add Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:background="@drawable/roundedcorners"
+        android:fontFamily="sans-serif-condensed"
+        android:typeface="normal"
+        android:textSize="18sp"
+        android:onClick="onRegister"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:layout_below="@+id/extra"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:text="See Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:background="@drawable/roundedcorners"
+        android:fontFamily="sans-serif-condensed"
+        android:typeface="normal"
+        android:textSize="18sp"
+        android:onClick="carInfo"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+</RelativeLayout>

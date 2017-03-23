@@ -1,0 +1,195 @@
+{
+  "project_info": {
+    "project_number": "569326469038",
+    "firebase_url": "https://rhino-guard.firebaseio.com",
+    "project_id": "rhino-guard",
+    "storage_bucket": "rhino-guard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569326469038:android:7eaf3e3b5be4d5e1",
+        "android_client_info": {
+          "package_name": "rhinoinc.rhinoguardapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569326469038-pgr5jjg2j5sg33indrbhlrki9j5rvenj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rhinoinc.rhinoguardapp",
+            "certificate_hash": "b39ddd69d512fe884677186c324c0251d8cb1b24"
+          }
+        },
+        {
+          "client_id": "569326469038-cvlhnf73o9kaqfem8d7k8po465j90tkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASVIYtaCxLOnykx8dYXIWVjuv1vrRphVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569326469038-cvlhnf73o9kaqfem8d7k8po465j90tkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569326469038:android:d842af33038fad5c",
+        "android_client_info": {
+          "package_name": "info.androidhive.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569326469038-pllvg73g6afl29s32ipbhdu3l5kpknk2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.androidhive.firebase",
+            "certificate_hash": "b39ddd69d512fe884677186c324c0251d8cb1b24"
+          }
+        },
+        {
+          "client_id": "569326469038-cvlhnf73o9kaqfem8d7k8po465j90tkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASVIYtaCxLOnykx8dYXIWVjuv1vrRphVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569326469038-cvlhnf73o9kaqfem8d7k8po465j90tkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569326469038:android:8c3b7d4681cbd3a6",
+        "android_client_info": {
+          "package_name": "rhinoinc.rhinoguardsecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569326469038-m1ms8sae0ge80acfoagj03fseqatdtuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rhinoinc.rhinoguardsecurity",
+            "certificate_hash": "b39ddd69d512fe884677186c324c0251d8cb1b24"
+          }
+        },
+        {
+          "client_id": "569326469038-cvlhnf73o9kaqfem8d7k8po465j90tkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASVIYtaCxLOnykx8dYXIWVjuv1vrRphVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569326469038-cvlhnf73o9kaqfem8d7k8po465j90tkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569326469038:android:8e5567e85923682e",
+        "android_client_info": {
+          "package_name": "inc.rhino.rhinoguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569326469038-0euhpkm88lcj4po5sifc3dl3fek3q3e2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "inc.rhino.rhinoguard",
+            "certificate_hash": "b39ddd69d512fe884677186c324c0251d8cb1b24"
+          }
+        },
+        {
+          "client_id": "569326469038-a0a2ap2s56k17nju7b9r4m2ibdfkr4kl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "inc.rhino.rhinoguard",
+            "certificate_hash": "fef34e0c71d43ef3af850366a2ecb6edfa0f746c"
+          }
+        },
+        {
+          "client_id": "569326469038-cvlhnf73o9kaqfem8d7k8po465j90tkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASVIYtaCxLOnykx8dYXIWVjuv1vrRphVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569326469038-cvlhnf73o9kaqfem8d7k8po465j90tkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
